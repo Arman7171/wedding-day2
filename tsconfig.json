@@ -3,12 +3,9 @@
     "jsx": "react",
     "lib": ["ES2017", "DOM"],
     "target": "ES6",
-    "moduleResolution": "node",
-    "ignoreDeprecations": "6.0",
     "skipLibCheck": true,
     "module": "ESNext",
     "esModuleInterop": true,
-    "baseUrl": "./",
     "paths": {
       "@/*": ["./src/*"],
       "@/pages/*": ["./src/pages/*"],
