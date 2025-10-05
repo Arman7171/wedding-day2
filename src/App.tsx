@@ -114,6 +114,7 @@ function App() {
 
   return (
     <div className="main" style={{ maxWidth: "400px", margin: "0 auto" }}>
+      <div className="fixed-bg"></div>
       <FadeSlide
         show={isOpenFirst}
         direction="center"

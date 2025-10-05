@@ -1,21 +1,21 @@
 body{
   background: url("/12.jpg") center / cover no-repeat fixed;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family: "Dancing Script", cursive;
-    background-attachment: fixed; 
-    background-blend-mode: darken;
-    background-color: #00000044;
-    color: #fff;
 }
-
-@supports (-webkit-touch-callout: none) {
-  body {
-    background-attachment: scroll;
+  .fixed-bg {
+    position: fixed;
+    inset: 0;              /* top:0; right:0; bottom:0; left:0 */
+    background: url("/12.jpg") center / cover no-repeat;
+    z-index: -1;
   }
-}
+  
+  /* Optional: the darken overlay you had */
+  .fixed-bg::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #0004;
+    mix-blend-mode: darken; /* same visual as background-blend-mode: darken */
+  }
 
 .title {
     font-size: 26px;
