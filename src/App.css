@@ -11,6 +11,12 @@ body{
     color: #fff;
 }
 
+@supports (-webkit-touch-callout: none) {
+  body {
+    background-attachment: scroll;
+  }
+}
+
 .title {
     font-size: 26px;
     text-align: center;
