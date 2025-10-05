@@ -1,5 +1,6 @@
 body{
-  background: url("/12.jpg") center / cover no-repeat fixed;
+  color: #fff !important;
+  font-family: "Dancing Script", cursive;
 }
   .fixed-bg {
     position: fixed;
@@ -22,6 +23,7 @@ body{
     text-align: center;
     width: fit-content;
     padding-bottom: 5px;
+    color: #fff;
 }
 
 .content-center{
@@ -279,6 +281,7 @@ top: 59%;
   width: 100%;
   z-index: 99;
   left: 0;
+  color: #fff;
 }
 
 .text-position{
@@ -293,7 +296,6 @@ font-size: 16px;
 }
 
 footer{
-  background: #353434;
   width: 100%;
   height: 400px;
   position: relative;
@@ -344,9 +346,8 @@ footer .footer-image{
 }
 
 .details{
-  background: #353434;
   width: 100%;
-  height: 1000px;
+  height: 200px;
   position: relative;
   overflow: hidden;
 }

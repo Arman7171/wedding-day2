@@ -260,34 +260,8 @@ function App() {
                 </div>
               </div>
             </section>
-            <div style={{ position: "relative", top: "5px" }}>
-              <img src="11.JPG" alt="" style={{ width: "100%" }} />
-              <div className="item-position a">
-                <div style={{ position: "relative" }}>
-                  <img
-                    src="https://optim.tildacdn.one/tild3462-3630-4137-a261-633237383336/-/resize/710x/-/format/webp/photo.png.webp"
-                    alt=""
-                  />
-                  <div className="text-position">
-                    Արդ ինչը Աստված միացրեց, մարդը թող չբաժանի
-                  </div>
-                </div>
-              </div>
-            </div>
             <section>
               <div className="details">
-                <img
-                  src="https://optim.tildacdn.one/tild3163-3334-4366-b838-303130333531/-/format/webp/photo.png.webp"
-                  alt=""
-                />
-                <div className="details-content">
-                  <h1>Details</h1>
-                  <br />
-                  <div>
-                    Ձեզ հետ բերեք ՍԵՐ, ժպիտներ ու անսահման դրական էմոցիաներ,
-                    ինչպես նաև հարմարավետ կոշիկներ՝ պարելու համար։
-                  </div>
-                </div>
                 <div className="countdown-section">
                   <div className="countdown-text">
                     մեր հարսանիքին մնացել է․․․
@@ -296,22 +270,7 @@ function App() {
                 </div>
               </div>
             </section>
-            <footer>
-              <img
-                className="footer-image-top"
-                src="https://static.tildacdn.one/tild3663-3630-4330-a265-353665386132/photo.svg"
-                alt=""
-              />
-              <div className="footer-text">
-                with love <br />
-                Zalibek & Hasmik
-              </div>
-              <img
-                className="footer-image"
-                src="https://optim.tildacdn.one/tild3163-3334-4366-b838-303130333531/-/format/webp/photo.png.webp"
-                alt=""
-              />
-            </footer>
+            <footer></footer>
           </>
         )}
 
