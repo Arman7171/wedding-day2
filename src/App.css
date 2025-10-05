@@ -28,7 +28,9 @@ body{
 }
 
 .text-2{
-font-size: 30px}
+  font-size: 35px;
+  margin-top: 15px;
+}
 
 .content-center{
     display: flex;
@@ -220,6 +222,10 @@ font-size: 30px}
   margin-top: 20px;
 }
 
+.mt-40{
+  margin-top: 40px;
+}
+
 .timing-special-item{
   display: flex;
   align-items: center;
@@ -358,12 +364,15 @@ footer .footer-image{
 
 .wedding-description{
   text-align: center;
-  font-size: 15px !important;
   margin: 10px 10px;
 }
 
 .wedding-description p{
   margin-bottom: 10px;
+}
+
+.location{
+  font-size: 45px;
 }
 
 .details img{

@@ -166,10 +166,7 @@ function App() {
             <div
               className="content-center"
               style={{ marginTop: "20px", marginBottom: "20px" }}>
-              <img
-                src="https://static.tildacdn.one/tild3930-6261-4661-b737-623665393866/Group_738002694.svg"
-                alt=""
-              />
+              <div className="location">Location for you…</div>
             </div>
 
             <div className="icon content-center">
@@ -182,15 +179,15 @@ function App() {
             <section>
               <div className="description">
                 Պսակադրությունը կանցկացվի{" "}
-                <strong>Սաղմոսավանք վանական համալիր</strong> գ. Սաղմոսավան
+                <strong>Նորավանք վանական համալիր</strong>
               </div>
               <div className="section-img content-center">
-                <img src="7.PNG" alt="" />
+                <img src="7.jpg" alt="" />
               </div>
               <div className="content-center">
                 <a
                   className="button"
-                  href="https://www.google.com/maps/place/%D0%A1%D0%B0%D0%B3%D0%BC%D0%BE%D1%81%D0%B0%D0%B2%D0%B0%D0%BD%D0%BA/@40.378522,44.3770736,5505m/data=!3m1!1e3!4m6!3m5!1s0x406a83a65b5f5b23:0x2c15637a87b6ecee!8m2!3d40.3805351!4d44.3967175!16s%2Fm%2F027tzt8?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D"
+                  href="https://yandex.com/maps/org/noravank/189913332504/?ll=45.440434%2C39.751864&z=10.49"
                   target="_blank"
                   rel="noreferrer">
                   Քարտեզ
@@ -208,9 +205,8 @@ function App() {
               <div className="description">
                 Տոնական խնջույքը կանցկացվի
                 <br />
-                <strong>Lianna garden Hall</strong>
+                <strong>Palermo Hall</strong>
                 <br />
-                Փարաքար, Երիտասարդության 34
               </div>
               <div className="section-img content-center">
                 <img src="6.JPG" alt="" />
@@ -218,7 +214,7 @@ function App() {
               <div className="content-center">
                 <a
                   className="button"
-                  href="https://www.google.com/maps/place/%D4%BC%D5%AB%D5%A1%D5%B6%D5%B6%D5%A1+%D4%B3%D5%A1%D6%80%D5%A4%D5%A5%D5%B6+%D5%80%D5%B8%D5%AC/@40.1701043,44.3691315,7114m/data=!3m1!1e3!4m9!3m8!1s0x406abf20058b7395:0xc8881d319e6d89ca!5m2!4m1!1i2!8m2!3d40.1649513!4d44.3920288!16s%2Fg%2F11ktyzthbv?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D"
+                  href="https://yandex.com/maps/org/palermo_hall/47026041904/?ll=44.601545%2C40.186564&z=18.32"
                   target="_blank"
                   rel="noreferrer">
                   Քարտեզ
@@ -227,11 +223,8 @@ function App() {
             </section>
 
             <section>
-              <div className="section-img content-center mt-20">
-                <img
-                  src="https://static.tildacdn.one/tild3766-6165-4739-a264-396434326330/Group_738002636.svg"
-                  alt=""
-                />
+              <div className="section-img content-center mt-40">
+                <div className="location">Timing Special</div>
               </div>
               <div
                 className="mt-20 content-center"
@@ -262,7 +255,7 @@ function App() {
               </div>
             </section>
             <section className="content-center">
-              <div className="wedding-description">
+              <div className="wedding-description title">
                 <p>
                   Սիրելի հարազատներ, սիրով հրավիրում ենք Ձեզ մեզ հետ կիսելու այս
                   կարևոր օրը։
