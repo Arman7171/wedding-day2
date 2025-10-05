@@ -7,7 +7,7 @@ export default function CountdownToOct12({ target }) {
       now.getMonth() > 9 || (now.getMonth() === 9 && now.getDate() > 12)
         ? now.getFullYear() + 1
         : now.getFullYear();
-    return new Date(year, 9, 12, 0, 0, 0, 0);
+    return new Date(year, 11, 12, 0, 0, 0, 0);
   }, []);
 
   const targetDate = target ?? defaultTarget;

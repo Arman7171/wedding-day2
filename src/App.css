@@ -1,6 +1,14 @@
 body{
-    background-color: #eae7e2 !important;
-      font-family: "Dancing Script", cursive;
+    background-image: url('/12.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Dancing Script", cursive;
+    background-attachment: fixed; 
+    background-blend-mode: darken;
+    background-color: #00000044;
+    color: #fff;
 }
 
 .title {
@@ -106,7 +114,7 @@ body{
   .letter p {
     font-size: 20px;
     margin-top: 30px;
-    color: #3B4049;
+    color: #fff;
     width: 200px;
   }
   
@@ -152,7 +160,7 @@ body{
 .subtitle {
     font-size: 22px;
     text-align: center;
-    color: #000;
+    color: #fff;
     width: 350px;
     text-align: center;
     margin: 70px auto 10px;
@@ -218,7 +226,7 @@ body{
   font-weight: lighter;
   font-style: italic;
   width: 120px;
-  color: #000;
+  color: #fff;
   text-align: right;
 }
 
@@ -233,7 +241,7 @@ body{
   left: 50%;
   transform: translate(-39%, -50%);
   font-size: 25px;
-  color: black;
+  color: #fff;
   font-style: italic;
   z-index: 2;
   width: 300px;
@@ -262,7 +270,6 @@ top: 59%;
 }
 
 .wedding{
-  position: absolute;
   width: 100%;
   z-index: 99;
   left: 0;

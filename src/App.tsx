@@ -4,14 +4,15 @@ import EnvelopeAnimation from "./EnvelopeAnimation";
 import FadeSlide from "./FadeSlide";
 // import Calendar from "./Calendar";
 import Countdown from "./CountDown";
+import Calendar from "./Calendar";
 
 function App() {
   const [isOpenFirst, setIsOpenFirst] = useState(true);
-  const [isOpenSecond, setIsOpenSecond] = useState(false);
+  const [isOpenSecond, setIsOpenSecond] = useState(true);
 
   // Audio state
   const [audioStarted, setAudioStarted] = useState(false);
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
   const [userPaused, setUserPaused] = useState(false); // prevent auto-start after a manual pause
   const audioRef = useRef(null);
 
@@ -112,7 +113,7 @@ function App() {
   };
 
   return (
-    <div style={{ maxWidth: "400px", margin: "0 auto" }}>
+    <div className="main" style={{ maxWidth: "400px", margin: "0 auto" }}>
       <FadeSlide
         show={isOpenFirst}
         direction="center"
@@ -127,12 +128,6 @@ function App() {
             </div>
           </div>
         </div>
-
-        <div className="content-center" style={{ position: "relative" }}>
-          <img src="8.jpeg" alt="" />
-          {isOpenSecond && <div className="names">Զալիբեկ + Հասմիկ</div>}
-        </div>
-
         {!isOpenSecond && (
           <>
             <div className="content-center letter-position">
@@ -163,8 +158,7 @@ function App() {
             </div>
 
             <div>
-              {/* <Calendar /> */}
-              <img src="10.png" alt="" style={{ width: "100%" }} />
+              <Calendar />
             </div>
 
             <div

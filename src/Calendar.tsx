@@ -47,12 +47,12 @@ export default function Calendar() {
         :root {
           --bg: transparent;
           --ink: #1f2937;
-          --muted: #6b7280;
+          --muted: #fff;
           --card: #ffffff;
           --ring: #b2b2b2;
           --shadow: 0 2px 8px rgba(0,0,0,.06);
         }
-        .cal-wrap { background: var(--bg); color: var(--ink); display: flex; align-items: flex-start; justify-content: center; padding: 40px 16px; }
+        .cal-wrap { background: var(--bg); color: var(--card); display: flex; align-items: flex-start; justify-content: center; padding: 40px 16px; }
         .cal { width: 100%; max-width: 300px; }
         .cal-header { display:flex; align-items:center; gap: 16px; margin-bottom: 32px; }
         .cal-rule { height:1px; background:#dadada; flex:1; }
@@ -64,7 +64,7 @@ export default function Calendar() {
 
         .day {
           position: relative; aspect-ratio: 1 / 1; border-radius: 16px; display:flex; align-items:center; justify-content:center;
-          font-size: 12px; background: var(--card); box-shadow: var(--shadow);
+          font-size: 12px; background: var(--card); box-shadow: var(--shadow); color: var(--ink);
           user-select: none;
         }
         .day--pad { opacity: 0; }
