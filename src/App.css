@@ -19,12 +19,16 @@ body{
   }
 
 .title {
-    font-size: 26px;
+    font-size: 20px;
     text-align: center;
     width: fit-content;
     padding-bottom: 5px;
+    margin: 0 20px;
     color: #fff;
 }
+
+.text-2{
+font-size: 30px}
 
 .content-center{
     display: flex;
@@ -171,7 +175,7 @@ body{
     color: #fff;
     width: 350px;
     text-align: center;
-    margin: 70px auto 10px;
+    margin: 30px auto 10px;
     font-weight: 600;
 }
 

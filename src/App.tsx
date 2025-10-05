@@ -122,10 +122,11 @@ function App() {
         duration={1}>
         <div className="content-center wedding" style={{ marginTop: "50px" }}>
           <div>
-            <div className="title">Մենք ամուսնանում ենք</div>
-            <div className="content-between">
-              <div>Հոկտեմբեր 12</div>
-              <div>2025</div>
+            <div className="title">
+              Շտապում ենք տեղեկացնել մեր հարսանյաց արարողության մասին
+            </div>
+            <div className="content-center">
+              <div className="text-2">V&M</div>
             </div>
           </div>
         </div>
@@ -261,7 +262,7 @@ function App() {
               </div>
             </section>
             <section>
-              <div className="details">
+              <div className="details content-center">
                 <div className="countdown-section">
                   <div className="countdown-text">
                     մեր հարսանիքին մնացել է․․․

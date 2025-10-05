@@ -7,7 +7,7 @@ export default function CountdownToOct12({ target }) {
       now.getMonth() > 9 || (now.getMonth() === 9 && now.getDate() > 12)
         ? now.getFullYear() + 1
         : now.getFullYear();
-    return new Date(year, 11, 12, 0, 0, 0, 0);
+    return new Date(year, 9, 31, 0, 0, 0, 0);
   }, []);
 
   const targetDate = target ?? defaultTarget;
@@ -46,7 +46,7 @@ export default function CountdownToOct12({ target }) {
   return (
     <div className="cd-wrap">
       <style>{`
-        .cd-wrap{width:100%;color:#0a0a0a;display:flex;align-items:center;justify-content:center;padding:24px}
+        .cd-wrap{width:100%;color:#0a0a0a;display:flex;align-items:center;justify-content:center}
         .cd-inner{width:100%;max-width:1000px;color:white;display:flex;flex-direction:column;align-items:center;gap:32px}
         .cd-row{display:flex;align-items:baseline;gap:clamp(16px,2.5vw,40px);user-select:none}
         .cd-cell{display:flex;flex-direction:column;align-items:center}

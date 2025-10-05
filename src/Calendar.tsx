@@ -38,8 +38,8 @@ function buildMonthMatrix(year, monthIndex1to12, limitDays = 12) {
 export default function Calendar() {
   const year = 2025;
   const month = 10; // Hoktember (October)
-  const activeDay = 12; // fixed
-  const weeks = useMemo(() => buildMonthMatrix(year, month, 12), [year, month]);
+  const activeDay = 31; // fixed
+  const weeks = useMemo(() => buildMonthMatrix(year, month, 31), [year, month]);
 
   return (
     <div className="cal-wrap">
