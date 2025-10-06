@@ -145,14 +145,12 @@ function App() {
               <div className="play-button" onClick={togglePlay}>
                 {!isPlaying ? (
                   <img
-                    src="https://static.tildacdn.one/tild3837-3532-4231-b936-613631626366/photo.png"
-                    alt="play"
+                    src="/play.png"
+                    alt="Play"
+                    style={{ background: "transparent" }}
                   />
                 ) : (
-                  <img
-                    src="https://static.tildacdn.one/tild6535-3930-4832-b862-393531303865/dsrk.png"
-                    alt="pause"
-                  />
+                  <img src="pause.png" alt="pause" />
                 )}
               </div>
               Սիրով հրավիրում ենք Ձեզ ներկա գտնվելու մեր հարսանյաց
